@@ -38,6 +38,29 @@ services :
     depends_on:
       - postgres
 
+  bureau-api:
+    build:
+      context: ./data_source/BureauCredit
+      dockerfile: Dockerfile
+    container_name: bureau-api
+    ports:
+      - "6666:6666"
+    environment:
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=BureauCredit
+      - DB_USER=postgres
+      - DB_PASSWORD=${POSTGRES_PASSWORD}
+    depends_on:
+      - postgres
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6666/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
   # =======================
   # Kafka (KRaft mode)
   # =======================
