@@ -14,7 +14,7 @@
     "publication.name": "dbz_publication",
     "publication.autocreate.mode": "filtered",
 
-    "table.include.list": "public.bki",
+    "table.include.list": "public.applications",
     "snapshot.mode": "initial",
     "incremental.snapshot.enabled": "true",
     "signal.data.collection": "debezium.signal",
