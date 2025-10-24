@@ -1,0 +1,33 @@
+{
+   "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "tasks.max": "1",
+
+    "database.hostname": "data_source_postgres",
+    "database.port": "5432",
+    "database.user": "debezium",
+    "database.password": "dbz",
+    "database.dbname": "BankOLTP",
+
+    "topic.prefix": "dbz",
+    "plugin.name": "pgoutput",
+    "slot.name": "pgslot_dbz_bankoltp",
+    "publication.name": "dbz_publication",
+    "publication.autocreate.mode": "filtered",
+
+    "table.include.list": "public.bki",
+    "snapshot.mode": "initial",
+    "incremental.snapshot.enabled": "true",
+    "signal.data.collection": "debezium.signal",
+
+    "topic.creation.default.replication.factor": 2,  
+    "topic.creation.default.partitions": 10,  
+    "topic.creation.default.cleanup.policy": "compact",  
+    "topic.creation.default.compression.type": "lz4",
+
+    "tombstones.on.delete": "false",
+    "decimal.handling.mode": "string",
+    "time.precision.mode": "connect",
+    "heartbeat.interval.ms": "5000",
+    "max.batch.size": "2048",
+    "max.queue.size": "8192"
+  }

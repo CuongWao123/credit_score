@@ -1,0 +1,28 @@
+{
+  "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+  "tasks.max": "1",
+  "database.hostname": "data_source_postgres",
+  "database.port": "5432",
+  "database.user": "debezium",
+  "database.password": "dbz",
+  "database.dbname": "BKI",
+
+  "topic.prefix": "dbz",
+  "plugin.name": "pgoutput",
+  "slot.name": "pgslot_dbz",
+  "publication.name"            : "dbz_publication",
+  "publication.autocreate.mode" : "disabled",
+
+  "table.include.list": "public.bki",
+  "snapshot.mode": "initial",
+  "incremental.snapshot.enabled": "true",
+  "signal.data.collection": "debezium.signal",
+
+  "tombstones.on.delete": "false",
+  "decimal.handling.mode": "string",
+  "time.precision.mode": "connect",
+
+  "heartbeat.interval.ms": "5000",
+  "max.batch.size": "2048",
+  "max.queue.size": "8192"
+}
