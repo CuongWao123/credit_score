@@ -1,0 +1,1522 @@
+{
+  "schema": {
+    "type": "struct",
+    "fields": [
+      {
+        "type": "struct",
+        "fields": [
+          {
+            "type": "int64",
+            "optional": false,
+            "field": "reco_id_curr"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "target"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "contract_type_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "gender"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "own_car_flag"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "own_realty_flag"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "children_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "income"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "loan_body"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "annuity_payment"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "goods_price"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "type_suite_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "income_type_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "education_type_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "family_status_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "housing_type_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "population_relative_region"
+          },
+          {
+            "type": "int32",
+            "optional": true,
+            "field": "days_birth"
+          },
+          {
+            "type": "int32",
+            "optional": true,
+            "field": "days_employed"
+          },
+          {
+            "type": "double",
+            "optional": true,
+            "field": "registration_timestamp"
+          },
+          {
+            "type": "int32",
+            "optional": true,
+            "field": "publication_timestamp"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "age_own_car"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "mobile_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "employee_phone_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "work_phone_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "mobile_contact_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "phone_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "email_flag"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "type_of_occupation"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "family_members__count"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "rating_client_region"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "rating_client_w_city_region"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "start_weekday_appr_process"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "hour_of_approval_process_start"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "not_live_region_reg_region"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "not_work_region_reg_region"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "living_region_not_work_region_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "not_live_city_reg_city"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "not_work_city_reg_city"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "living_city_not_work_city_flag"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "type_of_organization"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "external_source_1"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "external_source_2"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "external_source_3"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_basementarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_years_beginexpluatation"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_years_building"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_commonarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_elevator_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_entrance_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_max_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_min_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_land_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_living_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_living_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_apartments_avg"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_area_avg"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_basementarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_years_beginexpluatation"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_years_building"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_commonarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_elevator_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_entrance_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_max_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_min_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_land_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_living_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_living_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_apartments_mode"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_area_mode"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_basementarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_years_beginexpluatation"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_years_building"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_commonarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_elevator_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_entrance_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_max_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_min_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_land_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_living_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_living_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_apartments_medi"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_area_medi"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "fondkapremon_mode"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_house_type"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_total_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_walls_material"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "emergency_state_mode"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "observes_30_count_social_circle"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "social_circle_defaults_30_days"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "observes_60_count_social_circle"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "social_circle_defaults_60_days"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "last_phone_number_change"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_2_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_3_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_4_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_5_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_6_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_7_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_8_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_9_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_10_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_11_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_12_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_13_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_14_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_15_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_16_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_17_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_18_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_19_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_20_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_21_flag"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_hour"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_day"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_week"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_month"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_qrt"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_year"
+          }
+        ],
+        "optional": true,
+        "name": "dbz.public.applications.Value",
+        "field": "before"
+      },
+      {
+        "type": "struct",
+        "fields": [
+          {
+            "type": "int64",
+            "optional": false,
+            "field": "reco_id_curr"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "target"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "contract_type_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "gender"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "own_car_flag"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "own_realty_flag"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "children_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "income"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "loan_body"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "annuity_payment"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "goods_price"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "type_suite_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "income_type_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "education_type_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "family_status_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "housing_type_name"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "population_relative_region"
+          },
+          {
+            "type": "int32",
+            "optional": true,
+            "field": "days_birth"
+          },
+          {
+            "type": "int32",
+            "optional": true,
+            "field": "days_employed"
+          },
+          {
+            "type": "double",
+            "optional": true,
+            "field": "registration_timestamp"
+          },
+          {
+            "type": "int32",
+            "optional": true,
+            "field": "publication_timestamp"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "age_own_car"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "mobile_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "employee_phone_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "work_phone_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "mobile_contact_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "phone_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "email_flag"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "type_of_occupation"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "family_members__count"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "rating_client_region"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "rating_client_w_city_region"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "start_weekday_appr_process"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "hour_of_approval_process_start"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "not_live_region_reg_region"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "not_work_region_reg_region"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "living_region_not_work_region_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "not_live_city_reg_city"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "not_work_city_reg_city"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "living_city_not_work_city_flag"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "type_of_organization"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "external_source_1"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "external_source_2"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "external_source_3"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_basementarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_years_beginexpluatation"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_years_building"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_commonarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_elevator_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_entrance_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_max_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_min_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_land_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_living_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "average_living_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_apartments_avg"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_area_avg"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_basementarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_years_beginexpluatation"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_years_building"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_commonarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_elevator_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_entrance_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_max_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_min_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_land_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_living_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_living_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_apartments_mode"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_area_mode"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_basementarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_years_beginexpluatation"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_years_building"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_commonarea"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_elevator_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_entrance_count"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_max_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_min_floors"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_land_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_living_apartments"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "median_living_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_apartments_medi"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "non_living_area_medi"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "fondkapremon_mode"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_house_type"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_total_area"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "mode_walls_material"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "emergency_state_mode"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "observes_30_count_social_circle"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "social_circle_defaults_30_days"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "observes_60_count_social_circle"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "social_circle_defaults_60_days"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "last_phone_number_change"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_2_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_3_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_4_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_5_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_6_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_7_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_8_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_9_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_10_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_11_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_12_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_13_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_14_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_15_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_16_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_17_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_18_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_19_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_20_flag"
+          },
+          {
+            "type": "int16",
+            "optional": true,
+            "field": "document_21_flag"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_hour"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_day"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_week"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_month"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_qrt"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "requests_bki_year"
+          }
+        ],
+        "optional": true,
+        "name": "dbz.public.applications.Value",
+        "field": "after"
+      },
+      {
+        "type": "struct",
+        "fields": [
+          {
+            "type": "string",
+            "optional": false,
+            "field": "version"
+          },
+          {
+            "type": "string",
+            "optional": false,
+            "field": "connector"
+          },
+          {
+            "type": "string",
+            "optional": false,
+            "field": "name"
+          },
+          {
+            "type": "int64",
+            "optional": false,
+            "field": "ts_ms"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "name": "io.debezium.data.Enum",
+            "version": 1,
+            "parameters": {
+              "allowed": "true,last,false,incremental"
+            },
+            "default": "false",
+            "field": "snapshot"
+          },
+          {
+            "type": "string",
+            "optional": false,
+            "field": "db"
+          },
+          {
+            "type": "string",
+            "optional": true,
+            "field": "sequence"
+          },
+          {
+            "type": "int64",
+            "optional": true,
+            "field": "ts_us"
+          },
+          {
+            "type": "int64",
+            "optional": true,
+            "field": "ts_ns"
+          },
+          {
+            "type": "string",
+            "optional": false,
+            "field": "schema"
+          },
+          {
+            "type": "string",
+            "optional": false,
+            "field": "table"
+          },
+          {
+            "type": "int64",
+            "optional": true,
+            "field": "txId"
+          },
+          {
+            "type": "int64",
+            "optional": true,
+            "field": "lsn"
+          },
+          {
+            "type": "int64",
+            "optional": true,
+            "field": "xmin"
+          }
+        ],
+        "optional": false,
+        "name": "io.debezium.connector.postgresql.Source",
+        "field": "source"
+      },
+      {
+        "type": "struct",
+        "fields": [
+          {
+            "type": "string",
+            "optional": false,
+            "field": "id"
+          },
+          {
+            "type": "int64",
+            "optional": false,
+            "field": "total_order"
+          },
+          {
+            "type": "int64",
+            "optional": false,
+            "field": "data_collection_order"
+          }
+        ],
+        "optional": true,
+        "name": "event.block",
+        "version": 1,
+        "field": "transaction"
+      },
+      {
+        "type": "string",
+        "optional": false,
+        "field": "op"
+      },
+      {
+        "type": "int64",
+        "optional": true,
+        "field": "ts_ms"
+      },
+      {
+        "type": "int64",
+        "optional": true,
+        "field": "ts_us"
+      },
+      {
+        "type": "int64",
+        "optional": true,
+        "field": "ts_ns"
+      }
+    ],
+    "optional": false,
+    "name": "dbz.public.applications.Envelope",
+    "version": 2
+  },
+  "payload": {
+    "before": null,
+    "after": {
+      "reco_id_curr": 218842,
+      "target": 0,
+      "contract_type_name": "Revolving loans",
+      "gender": "F",
+      "own_car_flag": "N",
+      "own_realty_flag": "Y",
+      "children_count": "2.00",
+      "income": "135000.00",
+      "loan_body": "270000.00",
+      "annuity_payment": "13500.00",
+      "goods_price": "270000.00",
+      "type_suite_name": "Unaccompanied",
+      "income_type_name": "Working",
+      "education_type_name": "Secondary / secondary special",
+      "family_status_name": "Married",
+      "housing_type_name": "House / apartment",
+      "population_relative_region": "0.018209",
+      "days_birth": -13345,
+      "days_employed": -1588,
+      "registration_timestamp": -1087,
+      "publication_timestamp": -5069,
+      "age_own_car": null,
+      "mobile_flag": 1,
+      "employee_phone_flag": 1,
+      "work_phone_flag": 0,
+      "mobile_contact_flag": 1,
+      "phone_flag": 0,
+      "email_flag": 0,
+      "type_of_occupation": "Laborers",
+      "family_members__count": "4.0",
+      "rating_client_region": 3,
+      "rating_client_w_city_region": 3,
+      "start_weekday_appr_process": "SATURDAY",
+      "hour_of_approval_process_start": 14,
+      "not_live_region_reg_region": 0,
+      "not_work_region_reg_region": 0,
+      "living_region_not_work_region_flag": 0,
+      "not_live_city_reg_city": 0,
+      "not_work_city_reg_city": 0,
+      "living_city_not_work_city_flag": 0,
+      "type_of_organization": "Business Entity Type 3",
+      "external_source_1": "0.615568",
+      "external_source_2": "0.505392",
+      "external_source_3": "0.404878",
+      "average_apartments": "0.101000",
+      "average_basementarea": "0.093900",
+      "average_years_beginexpluatation": "0.982600",
+      "average_years_building": "0.762000",
+      "average_commonarea": "0.000000",
+      "average_elevator_count": "0.000000",
+      "average_entrance_count": "0.206900",
+      "average_max_floors": "0.166700",
+      "average_min_floors": "0.208300",
+      "average_land_area": "0.020400",
+      "average_living_apartments": "0.082400",
+      "average_living_area": "0.088900",
+      "non_living_apartments_avg": "0.000000",
+      "non_living_area_avg": "0.000000",
+      "mode_apartments": "0.102900",
+      "mode_basementarea": "0.097400",
+      "mode_years_beginexpluatation": "0.982600",
+      "mode_years_building": "0.771300",
+      "mode_commonarea": "0.000000",
+      "mode_elevator_count": "0.000000",
+      "mode_entrance_count": "0.206900",
+      "mode_max_floors": "0.166700",
+      "mode_min_floors": "0.208300",
+      "mode_land_area": "0.020900",
+      "mode_living_apartments": "0.090000",
+      "mode_living_area": "0.092600",
+      "non_living_apartments_mode": "0.000000",
+      "non_living_area_mode": "0.000000",
+      "median_apartments": "0.102000",
+      "median_basementarea": "0.093900",
+      "median_years_beginexpluatation": "0.982600",
+      "median_years_building": "0.765200",
+      "median_commonarea": "0.000000",
+      "median_elevator_count": "0.000000",
+      "median_entrance_count": "0.206900",
+      "median_max_floors": "0.166700",
+      "median_min_floors": "0.208300",
+      "median_land_area": "0.020800",
+      "median_living_apartments": "0.083800",
+      "median_living_area": "0.090500",
+      "non_living_apartments_medi": "0.000000",
+      "non_living_area_medi": "0.000000",
+      "fondkapremon_mode": "reg oper account",
+      "mode_house_type": "block of flats",
+      "mode_total_area": "0.069900",
+      "mode_walls_material": "Panel",
+      "emergency_state_mode": "No",
+      "observes_30_count_social_circle": "1.00",
+      "social_circle_defaults_30_days": "1.00",
+      "observes_60_count_social_circle": "1.00",
+      "social_circle_defaults_60_days": "1.00",
+      "last_phone_number_change": "-139.00",
+      "document_2_flag": 0,
+      "document_3_flag": 0,
+      "document_4_flag": 0,
+      "document_5_flag": 0,
+      "document_6_flag": 0,
+      "document_7_flag": 0,
+      "document_8_flag": 0,
+      "document_9_flag": 0,
+      "document_10_flag": 0,
+      "document_11_flag": 0,
+      "document_12_flag": 0,
+      "document_13_flag": 0,
+      "document_14_flag": 0,
+      "document_15_flag": 0,
+      "document_16_flag": 0,
+      "document_17_flag": 0,
+      "document_18_flag": 0,
+      "document_19_flag": 0,
+      "document_20_flag": 0,
+      "document_21_flag": 0,
+      "requests_bki_hour": "0.00",
+      "requests_bki_day": "0.00",
+      "requests_bki_week": "0.00",
+      "requests_bki_month": "0.00",
+      "requests_bki_qrt": "0.00",
+      "requests_bki_year": "1.00"
+    },
+    "source": {
+      "version": "2.7.3.Final",
+      "connector": "postgresql",
+      "name": "dbz",
+      "ts_ms": 1761366914124,
+      "snapshot": "true",
+      "db": "BankOLTP",
+      "sequence": "[null,\"11840525136\"]",
+      "ts_us": 1761366914124684,
+      "ts_ns": 1761366914124684000,
+      "schema": "public",
+      "table": "applications",
+      "txId": 923,
+      "lsn": 11840525136,
+      "xmin": null
+    },
+    "transaction": null,
+    "op": "r",
+    "ts_ms": 1761366914957,
+    "ts_us": 1761366914957510,
+    "ts_ns": 1761366914957510400
+  }
+}

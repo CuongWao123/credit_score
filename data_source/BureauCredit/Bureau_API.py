@@ -111,6 +111,7 @@ async def get_bureau_by_current_loan(reco_id_curr: int):
             b.reco_id_curr,
             b.reco_bureau_id,
             b.credit_status,
+            b.credit_currency,
             b.days_credit,
             b.credit_day_overdue,
             b.days_credit_enddate,
