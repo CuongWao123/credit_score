@@ -1,0 +1,7 @@
+[core]
+    remote = minio
+['remote "minio"']
+    url = s3://training-data
+    endpointurl = http://localhost:9900
+    use_ssl = false
+    region = us-east-1

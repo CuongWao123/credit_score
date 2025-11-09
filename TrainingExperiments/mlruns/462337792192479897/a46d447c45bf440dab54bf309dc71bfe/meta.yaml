@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Work/credit_scoring/TrainingExperiments/mlruns/462337792192479897/a46d447c45bf440dab54bf309dc71bfe/artifacts
+end_time: 1761797111203
+entry_point_name: ''
+experiment_id: '462337792192479897'
+lifecycle_stage: active
+run_id: a46d447c45bf440dab54bf309dc71bfe
+run_name: spiffy-lark-797
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761797105052
+status: 3
+tags: []
+user_id: LEGION

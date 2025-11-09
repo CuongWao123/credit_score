@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/Work/credit_scoring/TrainingExperiments/mlruns/462337792192479897/02548fda15b3477e8445335756c8bf27/artifacts
+end_time: 1761796845603
+entry_point_name: ''
+experiment_id: '462337792192479897'
+lifecycle_stage: active
+run_id: 02548fda15b3477e8445335756c8bf27
+run_name: caring-moth-812
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761796845527
+status: 4
+tags: []
+user_id: LEGION

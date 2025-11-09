@@ -1,0 +1,10 @@
+artifact_location: file:///d:/Work/credit_scoring/TrainingExperiments/mlruns/462337792192479897/models/m-5f6d1eb24e6446ea95d03947345c4e0e/artifacts
+creation_timestamp: 1761797105307
+experiment_id: '462337792192479897'
+last_updated_timestamp: 1761797111190
+model_id: m-5f6d1eb24e6446ea95d03947345c4e0e
+model_type: null
+name: model
+source_run_id: a46d447c45bf440dab54bf309dc71bfe
+status: 2
+status_message: null
