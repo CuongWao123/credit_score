@@ -35,7 +35,7 @@ This project covers the entire lifecycle from **data ingestion (Debezium → Kaf
 
 ## 🧱 System Architecture
 
-![System Architecture](MLsystem.png)
+![System Architecture](mle.png)
 
 
 ---
